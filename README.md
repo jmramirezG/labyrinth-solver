@@ -4,6 +4,18 @@
   
   [3, 3] < size < [1000, 1000].
 
+  The input comes from stdin (for testing purposes), so we need to run the program as follows:
+  
+  ```bash
+  python3 main.py
+  [[".",".",".",".",".",".",".",".","."],
+  ["#",".",".",".","#",".",".",".","."],
+  [".",".",".",".","#",".",".",".","."],
+  [".","#",".",".",".",".",".","#","."],
+  [".","#",".",".",".",".",".","#","."]]
+  <Ctrl+d>
+  ```
+
 * Output: integer number representing the lowest amount of moves required to solve the labyrinth.
   
   If impossible to solve, we return -1.
