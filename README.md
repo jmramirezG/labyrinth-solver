@@ -37,3 +37,7 @@ Possible moves the player can perform are:
 To move we need to make sure the cells in the direction we are moving are available (empty).
 
 To rotate we need a 3x3 square of empty cells.
+
+## Testing
+
+We have implemented unit tests for each of the given test cases, each obtaining the expected result.
