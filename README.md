@@ -2,9 +2,9 @@
 
 * Input: List[List[str]] where the character "." means the cell is empty and "#" means the cell is blocked.
   
-  [3, 3] < size < [1000, 1000].
+  [3, 3] <= size <= [1000, 1000].
 
-  The input comes from stdin (for testing purposes), so we need to run the program as follows:
+  The input comes from stdin, so we need to run the program as follows:
   
   ```bash
   python3 main.py
